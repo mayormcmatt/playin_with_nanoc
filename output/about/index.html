@@ -2,17 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Sandbox Nanoc Site - <%= @item[:title] %></title>
-    <link rel="stylesheet" href="<%= @items['/stylesheet/'].path %>">
+    <title>Sandbox Nanoc Site - About This Site</title>
+    <link rel="stylesheet" href="/stylesheet.css">
 
     <!-- you don't need to keep this, but it's cool for stats! -->
-    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
+    <meta name="generator" content="nanoc 3.6.11">
     <link rel="stylesheet" href="http://cdn.foundation5.zurb.com/foundation.css">
     <script src="http://cdn.foundation5.zurb.com/foundation.js"></script>
   </head>
   <body>
     <div id="main">
-      <%= yield %>
+      <h1>Nanoc Seems Like it Can Stand Up to Jekyll</h1>
+
+<p>Yup, that it does. Looks like I can even use Markdown, too.</p>
+
+
+    <p>This page was written by Matt Lopez</p>
+
     </div>
     <div id="sidebar">
       <h2>Documentation</h2>

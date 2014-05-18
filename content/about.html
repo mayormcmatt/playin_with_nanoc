@@ -1,0 +1,12 @@
+---
+title: About This Site
+author: Matt Lopez
+---
+
+<h1>Nanoc Seems Like it Can Stand Up to Jekyll</h1>
+
+<p>Yup, that it does. Looks like I can even use Markdown, too.</p>
+
+<% if @item[:author] %>
+    <p>This page was written by <%= @item[:author] %></p>
+<% end %>
